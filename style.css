@@ -1,74 +1,76 @@
 
-/* line 1, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 ::-webkit-scrollbar {
   width: 5px;
   height: 5px;
 }
-/* line 6, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px transparent;
   border-radius: 10px;
 }
 
-/* line 11, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
-/* line 16, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
 body {
-  margin: 0;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
   font-family: Montserrat, Roboto, Sans-serif;
 }
 
-/* line 20, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 body a {
   text-decoration: none;
 }
 
-/* line 25, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 .flex-row {
   display: flex;
 }
 
-/* line 29, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 .flex-col {
   display: flex;
   flex-direction: column;
 }
 
-/* line 34, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 .rev {
   flex-direction: row-reverse;
 }
 
-/* line 38, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #header {
   height: 56.25vw;
   width: 100vw;
 }
 
-/* line 42, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #header .logoAndNavWrapper {
   margin: 0 6vw;
   padding-top: 2vw;
   justify-content: space-between;
 }
 
-/* line 47, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #header .logoAndNavWrapper .logo {
   width: 14vw;
   height: 8vw;
   transition: all 1s ease-out;
 }
 
-/* line 52, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #header .logoAndNavWrapper .logo:hover {
   transform: scale(1.1);
 }
 
-/* line 57, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #header .logoAndNavWrapper nav {
   align-items: flex-start;
   position: relative;
@@ -76,7 +78,7 @@ body a {
   text-transform: uppercase;
 }
 
-/* line 62, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #header .logoAndNavWrapper nav a {
   margin-left: 2.5vw;
   color: darkslategray;
@@ -85,25 +87,25 @@ body a {
   transition: color 0.5s ease;
 }
 
-/* line 69, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #header .logoAndNavWrapper nav a:hover {
   color: #5FBBDF;
 }
 
-/* line 75, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #header .logoAndNavWrapper .nav-menu {
   width: 30px;
   height: 30px;
   display: none;
 }
 
-/* line 82, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #header .orderWrapper {
   margin-top: 4vw;
   align-items: center;
 }
 
-/* line 86, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #header .orderWrapper h2 {
   font-size: 3.9vw;
   color: #fff;
@@ -112,7 +114,7 @@ body a {
   font-family: Roboto, Sans-serif;
 }
 
-/* line 93, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #header .orderWrapper a {
   color: #fff;
   background: rgba(95, 187, 223, 0.7);
@@ -126,12 +128,12 @@ body a {
   font-weight: 700;
 }
 
-/* line 105, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #header .orderWrapper a:hover {
   background: #5fbbdf;
 }
 
-/* line 112, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #header video {
   position: absolute;
   top: 0;
@@ -139,12 +141,11 @@ body a {
   width: 100vw;
 }
 
-/* line 119, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #header .mobbg {
   display: none;
 }
 
-/* line 126, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
 #about h2 {
   text-align: center;
   font-size: 3vw;
@@ -153,20 +154,20 @@ body a {
   color: #333;
 }
 
-/* line 134, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #about .aboutWrapper {
   display: flex;
   margin: 0 1vw;
 }
 
-/* line 138, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #about .aboutWrapper img {
   width: 47vw;
   height: 42vw;
   margin: 1vw;
 }
 
-/* line 144, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #about .aboutWrapper .aboutPlate {
   width: 47vw;
   height: 42vw;
@@ -175,7 +176,7 @@ body a {
   padding: 0 3vw;
 }
 
-/* line 151, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #about .aboutWrapper .aboutPlate p {
   font-size: 3vw;
   color: #333;
@@ -187,15 +188,13 @@ body a {
     text-align: left;
   }
 
-
-/* line 157, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
 #about .aboutWrapper .aboutPlate ul {
   list-style: none;
 }
 #about .aboutWrapper .aboutPlate .aleft ul  {
     padding-left: 0px;
   }
-/* line 160, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #about .aboutWrapper .aboutPlate ul li {
   font-size: 3vw;
   color: #333;
@@ -206,7 +205,23 @@ body a {
 #about .aboutWrapper .aboutPlate .aleft ul li {
     text-align: left;
   }
-/* line 173, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
+#products .directions {
+  margin:1vw;
+}
+#products .directions .directions_block {
+  background-color: #fff;
+  height: 350px;
+  width: 550px;
+  text-align: center;
+  margin: 0px 15px;
+  padding: 10px;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+#products {
+  margin:1vw;
+}
 #products h2 {
   text-align: center;
   font-size: 3.9vw;
@@ -214,238 +229,47 @@ body a {
   font-weight: 700;
   color: #333;
 }
-
-/* line 181, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#products .productsWrapper {
-  display: flex;
-  margin: 0 1vw;
+.slick-active {
+  outline: none;
+}
+#portfolio {
+  margin:2vw;
+}
+#portfolio .main_small .small img {
+  width: 60%;
+  height: 40%;
+}
+#portfolio .main_small .small img:hover {
+  cursor: pointer;
+}
+#portfolio {background-color: #f5f5f5;}
+#portfolio .big img {
+  width: 50%;
+  padding-left: 25%;
 }
 
-/* line 185, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#products .productsWrapper .productsPlate {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 1vw;
-  padding: 1vw;
-  width: 30.66vw;
-  height: 30.66vw;
-  background: #5FBBDF;
-  transition: background 1s ease, color 1s ease;
-}
-
-/* line 196, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#products .productsWrapper .productsPlate:hover {
-  background: #5d396c;
-  color: #fff;
-}
-
-/* line 200, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#products .productsWrapper .productsPlate:hover svg {
-  fill: #fff;
-}
-
-/* line 205, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#products .productsWrapper .productsPlate svg {
-  width: 8.9vw;
-  height: 8.9vw;
-  transition: fill 1s ease;
-  margin-top: 1vw;
-}
-
-/* line 211, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#products .productsWrapper .productsPlate h3 {
-  font-size: 3vw;
-  font-weight: 700;
-}
-
-/* line 216, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#products .productsWrapper .productsPlate p {
-  font-size: 1.2vw;
-  margin: 3px;
-}
-
-/* line 226, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio h2 {
+#portfolio h2  {
   text-align: center;
   font-size: 3.9vw;
   margin: 4vw;
   font-weight: 700;
   color: #333;
+  padding-top: 3vw;
 }
-
-/* line 234, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio .portfolioWrapper {
-  display: flex;
-  margin: 0 1vw;
-}
-
-/* line 238, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio .portfolioWrapper .portfolioPlate {
-  margin: 1vw;
-  width: 22.5vw;
-  position: relative;
-}
-
-/* line 243, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio .portfolioWrapper .portfolioPlate:hover .hover-desc {
-  background: rgba(0, 0, 0, 0.7);
-  color: #fff;
-}
-
-/* line 248, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio .portfolioWrapper .portfolioPlate .last-orders {
-  font-size: 3vw;
+#portfolio p  {
+  text-align: center;
+  font-size: 2vw;
   font-weight: 700;
   color: #333;
 }
 
-/* line 254, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio .portfolioWrapper .portfolioPlate img {
-  width: 100%;
-  height: 100%;
-}
-
-/* line 259, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio .portfolioWrapper .portfolioPlate .hover-desc {
-  position: absolute;
-  background: transparent;
-  color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.5s ease;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  cursor: pointer;
-  font-size: 1.5vw;
-  font-weight: 700;
-}
-
-/* line 278, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio .portfolio-gallery {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  display: none;
-  flex-direction: column;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.7);
-}
-
-/* line 288, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio .portfolio-gallery .gallery-main {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  width: 100vw;
-  height: 90vh;
-}
-
-/* line 295, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio .portfolio-gallery .gallery-main .prev {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 9vw;
-}
-
-/* line 301, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio .portfolio-gallery .gallery-main .prev svg {
-  height: 3vw;
-  margin: 3vw;
-  cursor: pointer;
-  transition: all 0.5s ease;
-}
-
-/* line 307, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio .portfolio-gallery .gallery-main .prev svg:hover {
-  fill: #fff;
-  transform: scale(1.5);
-}
-
-/* line 314, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio .portfolio-gallery .gallery-main img {
-  width: 70vw;
-  height: 54vw;
-  max-width: 900px;
-  max-height: 700px;
-  margin-top: 2vw;
-  align-self: center;
-}
-
-/* line 323, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio .portfolio-gallery .gallery-main .next {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 9vw;
-}
-
-/* line 329, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio .portfolio-gallery .gallery-main .next svg {
-  height: 3vw;
-  margin: 3vw;
-  cursor: pointer;
-  transition: all 0.5s ease;
-}
-
-/* line 335, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio .portfolio-gallery .gallery-main .next svg:hover {
-  fill: #fff;
-  transform: scale(1.5);
-}
-
-/* line 342, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio .portfolio-gallery .gallery-main .close-button {
-  height: 1vw;
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 3vw;
-  cursor: pointer;
-  transition: all 0.5s ease;
-  fill: #bec6cc;
-}
-
-/* line 352, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio .portfolio-gallery .gallery-main .close-button:hover {
-  fill: #fff;
-  transform: scale(1.5);
-}
-
-/* line 359, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio .portfolio-gallery .gallery-thumbs {
-  display: flex;
-  justify-content: center;
-}
-
-/* line 363, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio .portfolio-gallery .gallery-thumbs img {
-  width: 10vw;
-  height: 8vw;
-  margin: 1vw;
-  margin-bottom: 3vw;
-  cursor: pointer;
-  transition: all 0.5s ease;
-}
-
-/* line 371, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-#portfolio .portfolio-gallery .gallery-thumbs img:hover {
-  transform: scale(1.2);
-}
-
-/* line 379, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
 #order {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* line 384, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #order h2 {
   text-align: center;
   font-size: 3.9vw;
@@ -454,20 +278,20 @@ body a {
   color: #333;
 }
 
-/* line 392, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #order form {
   display: flex;
   flex-direction: column;
 }
 
-/* line 396, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #order form label {
   font-size: 1vw;
   font-weight: 700;
   margin: 1vw;
 }
 
-/* line 401, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #order form label input {
   width: 50vw;
   line-height: 2vw;
@@ -488,7 +312,7 @@ body a {
   padding-bottom: 15px;
   padding-top: 0px;
 }
-/* line 408, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #order form button {
   width: 16vw;
   line-height: 3vw;
@@ -503,14 +327,14 @@ body a {
   transition: background 0.5s ease;
 }
 
-/* line 421, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #order form button:hover {
   background: #5fbbdf;
 }
 #map .contacts_map iframe {
   width: 100vw;}
 
-/* line 428, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #contacts {
   background: #242424;
   display: flex;
@@ -520,7 +344,7 @@ body a {
   padding-bottom: 35px;
 }
 
-/* line 435, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #contacts .logo {
   width: 150px;
   transition: all 1s ease-out;
@@ -528,7 +352,7 @@ body a {
   padding-top: 7vw;
 }
 
-/* line 441, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #contacts .logo:hover {
   transform: scale(1.05);
 }
@@ -553,7 +377,7 @@ body a {
 #contacts .contacts_contact p a:hover {
   color: #5FBBDF;
 }
-/* line 448, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #contacts h3 {
   color: #999999;
   padding-top: 2vw;
@@ -564,7 +388,7 @@ body a {
   font-size: 1.2vw;
 }
 
-/* line 454, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #to-top {
   width: 5vw;
   position: fixed;
@@ -577,21 +401,24 @@ body a {
   display: none;
 }
 
-/* line 465, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
 #to-top:hover {
   fill-opacity: 1;
 }
-
+.slick-next {
+  display: none;
+}
 @media screen and (max-width: 768px) {
-  /* line 471, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
   #header {
+    margin-top: -10px;
     height: 56.25vw;
     width: 100vw;
     background: url("./img/mobbg.png") no-repeat;
     background-size: cover;
     overflow: hidden;
   }
-  /* line 478, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
   #header .logoAndNavWrapper {
     margin: 5vw 5vw;
     padding-top: 1vw;
@@ -602,11 +429,11 @@ body a {
     height: 90px;
     margin-top: -30px;
   }
-  /* line 483, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
-
-  /* line 488, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
  
-  /* line 493, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
+
+ 
+
   #header .logoAndNavWrapper nav {
     align-items: center;
     justify-content: center;
@@ -620,18 +447,17 @@ body a {
     top: 0;
     transition: all 0.5s ease;
   }
-  /* line 506, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
   #header .logoAndNavWrapper nav a {
-    margin-left: 2.5vw;
     font-size: 9vw;
     font-weight: 700;
     transition: color 0.5s ease;
   }
-  /* line 512, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
   #header .logoAndNavWrapper nav a:hover {
     color: #5FBBDF;
   }
-  /* line 518, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
   #header .logoAndNavWrapper .nav-menu {
     width: 20px;
     height: 20px;
@@ -640,23 +466,23 @@ body a {
     top: 20px;
     right: 20px;
   }
-  /* line 526, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
   #header .logoAndNavWrapper .nav-menu svg {
     fill: darkslategray;
   }
-  /* line 532, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
   #header .orderWrapper {
     margin-top: 0px;
     align-items: center;
   }
-  /* line 536, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
   #header .orderWrapper h2 {
     font-size: 6vw;
     color: #fff;
     font-weight: 700;
     text-align: center;
   }
-  /* line 543, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
   #header .orderWrapper a {
     color: #fff;
     background: rgba(95, 187, 223, 0.7);
@@ -670,11 +496,11 @@ body a {
     font-weight: 700;
     padding-top:5px;
   }
-  /* line 555, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+ 
   #header .orderWrapper a:hover {
     background: #5fbbdf;
   }
-  /* line 562, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
   #header video {
     position: absolute;
     top: 0;
@@ -682,7 +508,7 @@ body a {
     width: 100vw;
     display: none;
   }
-  /* line 570, C:/Users/Nuclearman/OneDrive/Документы/GitHub/GlyphMedia2.0/public/stylesheets/style.scss */
+
   #header .mobbg {
     display: block;
     position: absolute;
