@@ -49,7 +49,7 @@ window.onscroll = function() {
 }
 
 //portfolio gallery
-var gallery = document.getElementsByClassName('portfolioPlate');
+/*var gallery = document.getElementsByClassName('portfolioPlate');
 var galleryItems = document.getElementsByClassName('gallery-item');
 var galleryThumbs = document.querySelectorAll('.gallery-thumbs img');
 var imgSrc, imgIndex;
@@ -128,7 +128,7 @@ function sendMail(){
 	request.setRequestHeader('Content-Type', 'application/x-www-urlencoded');
 	request.send(params);
 }
-
+*/
 //mob menu
 
 function menuShow(event) {
