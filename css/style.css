@@ -31,7 +31,7 @@ body a{text-decoration:none;}
 #about .aboutWrapper .aboutPlate ul li{font-size:3vw;color:#333;text-align:right;font-style:italic;font-weight:700;}
 #about .aboutWrapper .aboutPlate .aleft ul li{text-align:left;}
 #products .directions{margin:1vw;}
-#products .directions .directions_block{background-color:#fff;height:350px;width:550px;text-align:center;margin:0px 15px;padding:10px;background-position:bottom center;background-repeat:no-repeat;}
+#products .directions .directions_block{background-color:#fff;height:350px;width:670px;text-align:center;margin:0px 15px;padding:10px;background-position:bottom center;background-repeat:no-repeat;}
 #products{margin:1vw;}
 #products h2{text-align:center;font-size:3.9vw;margin:4vw;font-weight:700;color:#333;}
 .slick-active{outline:none;}
@@ -51,7 +51,7 @@ body a{text-decoration:none;}
 #order form button{width:16vw;line-height:3vw;font-size:1.5vw;font-weight:700;color:#fff;background:rgba(95, 187, 223, 0.7);border:none;border-radius:10px;align-self:center;cursor:pointer;transition:background 0.5s ease;}
 #order form button:hover{background:#5fbbdf;}
 #map .contacts_map iframe{width:100vw;}
-#contacts{background:#242424;display:flex;justify-content:space-around;color:#fff;line-height:1.5;padding-bottom:35px;}
+#contacts{background:#242424;display:flex;justify-content:space-around;color:#fff;line-height:1.5;padding-bottom:35px;margin-right: -5px;}
 #contacts .logo{width:150px;transition:all 1s ease-out;align-self:center;padding-top:7vw;}
 #contacts .logo:hover{transform:scale(1.05);}
 #contacts .contacts_address{margin-top:2vw;}
