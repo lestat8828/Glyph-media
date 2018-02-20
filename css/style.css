@@ -15,7 +15,7 @@ body a{text-decoration:none;}
 #header .logoAndNavWrapper nav a:hover{color:#5FBBDF;}
 #header .logoAndNavWrapper .nav-menu{width:30px;height:30px;display:none;}
 #header .orderWrapper{margin-top:4vw;align-items:center;}
-#header .orderWrapper h2{font-size:3.9vw;color:#fff;font-weight:900;text-align:center;font-family:Roboto, Sans-serif;}
+#header .orderWrapper h1{font-size:3.9vw;color:#fff;font-weight:900;text-align:center;font-family:Roboto, Sans-serif;}
 #header .orderWrapper a{color:#fff;background:rgba(95, 187, 223, 0.7);height:3vw;width:18vw;text-align:center;border-radius:10px;font-size:1.3vw;line-height:3vw;transition:background 0.5s ease;font-weight:700;}
 #header .orderWrapper a:hover{background:#5fbbdf;}
 #header video{position:absolute;top:0;z-index:-1;width:100vw;}
@@ -51,9 +51,11 @@ body a{text-decoration:none;}
 #order form button{width:16vw;line-height:3vw;font-size:1.5vw;font-weight:700;color:#fff;background:rgba(95, 187, 223, 0.7);border:none;border-radius:10px;align-self:center;cursor:pointer;transition:background 0.5s ease;}
 #order form button:hover{background:#5fbbdf;}
 #map .contacts_map iframe{width:100vw;}
+#map h3 {opacity: 0;}
 #contacts{background:#242424;display:flex;justify-content:space-around;color:#fff;line-height:1.5;padding-bottom:35px;margin-right: -5px;}
-#contacts .logo{width:150px;height: 110px; transition:all 1s ease-out;align-self:center;padding-top:7vw;}
+#contacts .logo{width:150px; height: 110px; transition:all 1s ease-out;align-self:center;}
 #contacts .logo:hover{transform:scale(1.05);}
+#contacts .logo img {width:150px; height: 110px; padding-top: 2vw;}
 #contacts .contacts_address{margin-top:2vw;}
 #contacts .contacts_address p{margin-top:0px;margin-bottom:0px;}
 #contacts .contacts_contact{margin-top:2vw;}
@@ -74,7 +76,7 @@ body a{text-decoration:none;}
 #header .logoAndNavWrapper .nav-menu{width:20px;height:20px;display:block;position:absolute;top:20px;right:20px;}
 #header .logoAndNavWrapper .nav-menu svg{fill:darkslategray;}
 #header .orderWrapper{margin-top:0px;align-items:center;}
-#header .orderWrapper h2{font-size:6vw;color:#fff;font-weight:700;text-align:center;}
+#header .orderWrapper h1{font-size:6vw;color:#fff;font-weight:700;text-align:center;}
 #header .orderWrapper a{color:#fff;background:rgba(95, 187, 223, 0.7);height:3.5vw;width:25vw;text-align:center;border-radius:10px;font-size:1.5vw;line-height:3vw;transition:background 0.5s ease;font-weight:700;padding-top:5px;}
 #header .orderWrapper a:hover{background:#5fbbdf;}
 #header video{position:absolute;top:0;z-index:-1;width:100vw;display:none;}
@@ -87,7 +89,7 @@ body a{text-decoration:none;}
 #order form button{width:25vw;line-height:6vw;font-size:2.3vw;font-weight:700;}
 }
 @media screen and (max-width:376px){#contacts{background:#242424;display:block;justify-content:space-around;color:#fff;line-height:2.5vw;padding-bottom:35px;}
-#contacts .logo{width:100px;transition:all 1s ease-out;align-self:center;padding-top:7vw;margin-left:36.5%;}
+#contacts .logo{width:100px;transition:all 1s ease-out;align-self:center;padding-top:7vw;margin-left:115px;}
 #contacts h3{font-size:2vw;text-align:center;}
 #contacts p{text-align:center;font-size:2vw;}
 #header .logoAndNavWrapper .logo{width:60px;height:40px;margin-top:-10px;}
